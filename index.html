@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Developers Hub</title>
+    <meta property="og:title" content="Developers Hub" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Lora;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/logoss1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-navbar">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <div class="home-branding">
+              <a href="index.html" class="home-navlink">DevelopersHub</a>
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path d="M128 128h768v768h-768z"></path>
+              </svg>
+              <span class="home-text">A place for tech beginners</span>
+            </div>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="home-desktop-menu"
+            >
+              <nav class="home-links">
+                <button class="home-button button">
+                  <a href="#partblogs" class="home-link">Blog Posts</a>
+                </button>
+                <button class="home-button01 button">
+                  <a href="about.html" class="home-navlink01">About</a>
+                </button>
+                <button class="home-button02 button">Menu</button>
+              </nav>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <img
+                alt="image"
+                src="public/group%202084%5B1%5D.svg"
+                class="home-hamburger"
+              />
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div class="home-top">
+                <div class="home-branding1">
+                  <span class="home-text001">DevelopersHub</span>
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path d="M128 128h768v768h-768z"></path>
+                  </svg>
+                  <span class="home-text002">developersHub</span>
+                </div>
+                <div data-thq="thq-close-menu" class="home-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="home-icon04">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="home-links1">
+                <button class="home-button03 button">
+                  <span><a href="#partblogs" class="home-link">Blog Posts</a></span>
+                </button>
+                <button class="home-button04 button">
+                  <span><a href="about.html" class="home-navlink01">About</a></span>
+                </button>
+                <button class="home-button05 button">Menu</button>
+              </nav>
+              <div class="home-social-bar">
+                <svg viewBox="0 0 950.8571428571428 1024" class="home-icon06">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon08">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon10">
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path></svg
+                ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon12">
+                  <path
+                    d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                  ></path></svg
+                ><svg viewBox="0 0 1024 1024" class="home-icon14">
+                  <path
+                    d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </div>
+        <header class="home-hero">
+          <div class="home-content">
+            <h1 class="home-title">
+              Platform for new learners into the Tech World
+            </h1>
+            <span class="home-description">
+              Your Starting Point in the Digital Realm. Our platform welcomes
+              newcomers to the tech world with open arms, providing the guidance
+              and resources needed to embark on a successful journey into the
+              exciting realm of technology. Start your learning adventure today!
+            </span>
+            <img alt="image" src="public/line-300w.png" class="home-image" />
+          </div>
+          <div class="home-image01">
+            <img
+              alt="image"
+              src="https://w0.peakpx.com/wallpaper/928/353/HD-wallpaper-tech-blue-blue-neon-neon-planet-world-thumbnail.jpg"
+              class="home-image02"
+            />
+            <img
+              alt="image"
+              src="https://cdn.pixabay.com/photo/2022/02/15/10/42/arm-7014655_640.jpg"
+              class="home-image03"
+            />
+          </div>
+        </header>
+        <section class="home-mission">
+          <h2 class="home-text005">
+            Read our tech blogs and listen to our audiobooks to learn about
+            interesting tech and development skills. Ask a Question now.
+          </h2>
+          <button class="home-button06 button">
+            <span class="home-text006">Ask a Question / Need a post on</span>
+          </button>
+        </section>
+        <section class="home-improve">
+          <div class="home-heading">
+            <h2 class="home-text007">Set New Limits ! Develop New Skills</h2>
+            <p class="home-text008">
+              Want To learn, Need a perfect guide, You are at the correct place.
+            </p>
+          </div>
+          <div class="home-tabs">
+            <div class="home-content1">
+              <div class="home-details">
+                <div class="home-header">
+                  <h2 class="home-text009">Learn about Web Development</h2>
+                  <div class="home-description1">
+                    <p class="home-text010">
+                      Web development is a captivating field that empowers you
+                      to craft the digital world. Whether you're a novice or
+                      have some coding experience, diving into web development
+                      is an exhilarating endeavor. It's a fusion of creativity
+                      and technical prowess, where you can bring your ideas to
+                      life on the internet's vast canvas. Starting with the
+                      fundamentals of HTML and CSS, you'll learn how to
+                      structure and style web pages. As you progress, you'll
+                      delve into JavaScript to make your websites interactive
+                      and dynamic. Alongside these core technologies, you'll
+                      explore frameworks like React, Angular, or Vue.js, which
+                      streamline the development process. By mastering web
+                      development, you'll unlock the ability to build websites
+                      and web applications, turning your passion into a valuable
+                      skillset in today's digital age.
+                    </p>
+                  </div>
+                </div>
+                <button class="home-button07 button">
+                  <span class="home-text011">
+                    <span>Load&nbsp; Guide</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+              <div class="home-image04">
+                <img
+                  alt="image"
+                  src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=1480&amp;t=st=1695915788~exp=1695916388~hmac=bd650e595a12f12ae9bb1c2fd812aab9beec80b636cb21db0e61df44eab268e4"
+                  class="home-image05"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-services">
+          <h2 class="home-text014">Our Upcoming Features</h2>
+          <div class="home-cards">
+            <div class="home-row">
+              <div class="home-card card">
+                <div class="home-header01">
+                  <img
+                    alt="image"
+                    src="public/group%201643.svg"
+                    class="home-icon16"
+                  />
+                  <h3 class="home-heading1">
+                    <span>Live</span>
+                    <br />
+                    <span>Classroom</span>
+                    <br />
+                  </h3>
+                </div>
+                <p class="home-text019">
+                  Interactive real-time learning. Engage with instructors, ask
+                  questions, and collaborate with peers for an immersive
+                  educational experience.
+                </p>
+              </div>
+              <div class="home-card1 card">
+                <div class="home-header02">
+                  <img
+                    alt="image"
+                    src="public/group%201644.svg"
+                    class="home-icon17"
+                  />
+                  <h3 class="home-heading2">
+                    <span>Developers&nbsp;</span>
+                    <br />
+                    <span>Community</span>
+                    <br />
+                  </h3>
+                </div>
+                <p class="home-text024">
+                  Connect with fellow tech enthusiasts, share knowledge, and
+                  collaborate on projects. A supportive space for networking and
+                  skill-building.
+                </p>
+              </div>
+            </div>
+            <div class="home-row1">
+              <div class="home-card2 card">
+                <div class="home-header03">
+                  <img
+                    alt="image"
+                    src="public/group%201645.svg"
+                    class="home-icon18"
+                  />
+                  <h3 class="home-heading3">
+                    <span>Certification</span>
+                    <br />
+                    <span>Tests</span>
+                    <br />
+                  </h3>
+                </div>
+                <p class="home-text029">
+                  Validate your skills with industry-recognized certifications.
+                  Assess your proficiency and enhance your career prospects in
+                  the tech world.
+                </p>
+              </div>
+              <div class="home-card3 card">
+                <div class="home-header04">
+                  <img
+                    alt="image"
+                    src="public/group%201646.svg"
+                    class="home-icon19"
+                  />
+                  <h3 class="home-heading4">
+                    <span>Developers Tech</span>
+                    <br />
+                    <span>Help</span>
+                    <br />
+                  </h3>
+                </div>
+                <p class="home-text034">
+                  Get expert assistance and guidance. Solve coding dilemmas,
+                  troubleshoot issues, and accelerate your development journey
+                  with personalized support.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="partblogs" class="home-partners">
+          <div class="home-content2">
+            <h2 class="home-text035">Our Topics</h2>
+            <p class="home-text036">
+              We Cover a wide range of tech topics. Click on each to read posts
+              on the topic.
+            </p>
+          </div>
+          <div class="home-partners-desktop">
+            <div class="home-column">
+              <a href="not-found.html" class="home-navlink02">
+                <div class="home-partner partner-container">
+                  <img
+                    alt="image"
+                    src="public/external/pastedimage-ugc-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink03">
+                <div class="home-partner01 partner-container">
+                  <img
+                    alt="image"
+                    src="https://banner2.cleanpng.com/20180402/jyw/kisspng-web-development-digital-marketing-web-design-searc-web-development-5ac2ebbd809816.8790086015227237735267.jpg"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink04">
+                <div class="home-partner02 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/tinker.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-column01">
+              <a href="not-found.html" class="home-navlink05">
+                <div class="home-partner03 partner-container">
+                  <img
+                    alt="image"
+                    src="public/external/pastedimage-y65m-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink06">
+                <div class="home-partner04 partner-container">
+                  <img
+                    alt="image"
+                    src="public/external/pastedimage-j7gr-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink07">
+                <div class="home-partner05 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/canava.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink08">
+                <div class="home-partner06 partner-container">
+                  <img
+                    alt="image"
+                    src="https://cdn-icons-png.flaticon.com/512/6119/6119533.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-column02">
+              <a href="not-found.html" class="home-navlink09">
+                <div class="home-partner07 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/aurdiuno.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink10">
+                <div class="home-partner08 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/git.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink11">
+                <div class="home-partner09 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/photoshop.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink12">
+                <div class="home-partner10 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/linux.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink13">
+                <div class="home-partner11 partner-container">
+                  <img
+                    alt="image"
+                    src="https://brandslogos.com/wp-content/uploads/images/large/visual-studio-code-logo.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-column03">
+              <a href="not-found.html" class="home-navlink14">
+                <div class="home-partner12 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/wp.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink15">
+                <div class="home-partner13 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/figma.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink16">
+                <div class="home-partner14 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/rlogo-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink17">
+                <div class="home-partner15 partner-container">
+                  <img
+                    alt="image"
+                    src="https://www.pngkey.com/png/detail/117-1174531_cloudcomputing-cloud-computing-logo-png.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="home-partners-mobile">
+            <div class="home-row2">
+              <a href="not-found.html" class="home-navlink18">
+                <div class="home-partner16 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/aurdiuno.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink19">
+                <div class="home-partner17 partner-container">
+                  <img
+                    alt="image"
+                    src="public/external/pastedimage-y65m-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink20">
+                <div class="home-partner18 partner-container">
+                  <img
+                    alt="image"
+                    src="public/external/pastedimage-ugc-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink21">
+                <div class="home-partner19 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/wp.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-column04">
+              <a href="not-found.html" class="home-navlink22">
+                <div class="home-partner20 partner-container">
+                  <img
+                    alt="image"
+                    src="https://banner2.cleanpng.com/20180402/jyw/kisspng-web-development-digital-marketing-web-design-searc-web-development-5ac2ebbd809816.8790086015227237735267.jpg"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink23">
+                <div class="home-partner21 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/figma.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink24">
+                <div class="home-partner22 partner-container">
+                  <img
+                    alt="image"
+                    src="public/external/pastedimage-j7gr-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink25">
+                <div class="home-partner23 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/git.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-column05">
+              <a href="not-found.html" class="home-navlink26">
+                <div class="home-partner24 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/tinker.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink27">
+                <div class="home-partner25 partner-container">
+                  <img
+                    alt="image"
+                    src="https://cdn-icons-png.flaticon.com/512/6119/6119533.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink28">
+                <div class="home-partner26 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/linux.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink29">
+                <div class="home-partner27 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/rlogo-200h.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-column06">
+              <a href="not-found.html" class="home-navlink30">
+                <div class="home-partner28 partner-container">
+                  <img
+                    alt="image"
+                    src="https://anasjawed283.github.io/logo/photoshop.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink31">
+                <div class="home-partner29 partner-container">
+                  <img
+                    alt="image"
+                    src="https://brandslogos.com/wp-content/uploads/images/large/visual-studio-code-logo.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+              <a href="not-found.html" class="home-navlink32">
+                <div class="home-partner30 partner-container">
+                  <img
+                    alt="image"
+                    src="https://www.pngkey.com/png/detail/117-1174531_cloudcomputing-cloud-computing-logo-png.png"
+                    class="partner-image"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="home-testimonials">
+          <div class="home-container1">
+            <div class="home-content3">
+              <div class="active-quote quote">
+                <img
+                  alt="image"
+                  src="https://e7.pngegg.com/pngimages/416/62/png-clipart-anonymous-person-login-google-account-computer-icons-user-activity-miscellaneous-computer.png"
+                  role="quote-avatar"
+                  class="home-image37"
+                />
+                <p role="quote-content" class="home-quote1">
+                  "A wonderful place to learn and grow, Really Helpful Posts and
+                  tech Blogs that provide great knowledge"
+                </p>
+                <div class="home-author">
+                  <span role="quote-author" class="home-name">Anonymous</span>
+                  <span role="quote-origin" class="home-origin">User</span>
+                </div>
+              </div>
+              <div class="quote">
+                <img
+                  alt="image"
+                  src="https://e7.pngegg.com/pngimages/416/62/png-clipart-anonymous-person-login-google-account-computer-icons-user-activity-miscellaneous-computer.png"
+                  role="quote-avatar"
+                  class="home-image37"
+                />
+                <p role="quote-content" class="home-quote1">
+                  "A great place to learn and grow, dedicated Helpful Posts and
+                  tech Blogs that provide great knowledge"
+                </p>
+                <div class="home-author">
+                  <span role="quote-author" class="home-name">Someone</span>
+                  <span role="quote-origin" class="home-origin">User2</span>
+                </div>
+              </div>
+              <div class="quote">
+                <img
+                  alt="image"
+                  src="https://e7.pngegg.com/pngimages/416/62/png-clipart-anonymous-person-login-google-account-computer-icons-user-activity-miscellaneous-computer.png"
+                  role="quote-avatar"
+                  class="home-image37"
+                />
+                <p role="quote-content" class="home-quote1">
+                  "A awesome place to learn and grow, Really Helpful Posts and
+                  tech Blogs that provide great knowledge"
+                </p>
+                <div class="home-author">
+                  <span role="quote-author" class="home-name">Anonymous 3</span>
+                  <span role="quote-origin" class="home-origin">User 3</span>
+                </div>
+              </div>
+              <div class="quote">
+                <img
+                  alt="image"
+                  src="https://e7.pngegg.com/pngimages/416/62/png-clipart-anonymous-person-login-google-account-computer-icons-user-activity-miscellaneous-computer.png"
+                  role="quote-avatar"
+                  class="home-image37"
+                />
+                <p role="quote-content" class="home-quote1">
+                  "A wonderful place to learn and grow, Really Helpful Posts and
+                  tech Blogs that provide great knowledge"
+                </p>
+                <div class="home-author">
+                  <span role="quote-author" class="home-name">Anonymous 4</span>
+                  <span role="quote-origin" class="home-origin">User 4</span>
+                </div>
+              </div>
+              <div class="home-controls">
+                <div id="quote-previous" class="home-previous">
+                  <img
+                    alt="image"
+                    src="public/frame.svg"
+                    class="home-image41"
+                  />
+                </div>
+                <div id="quote-next" class="home-next">
+                  <img
+                    alt="image"
+                    src="public/frame.svg"
+                    class="home-image42"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="home-container3">
+              <script>
+                /*
+                            Quote Slider - Code Embed
+                            */
+
+                            let current = 1;
+
+                            const nextButton = document.querySelector('#quote-next');
+                            const previousButton = document.querySelector('#quote-previous');
+                            const quotes = document.querySelectorAll('.quote');
+
+                            if(nextButton&&previousButton){
+                              nextButton.addEventListener('click', () => {
+                              quotes.forEach((quote) => {
+                              quote.classList.remove('active-quote');
+                              });
+
+                              current == quotes.length ? current = 1 : current++
+                              quotes[current-1].classList.add('active-quote')
+                              });
+
+                              previousButton.addEventListener('click', () => {
+                              quotes.forEach((quote) => {
+                              quote.classList.remove('active-quote');
+                              });
+
+                              current == 1 ? current = quotes.length : current--
+                              quotes[current-1].classList.add('active-quote')
+                              });
+
+                            }
+              </script>
+            </div>
+          </div>
+        </section>
+        <section class="home-services1">
+          <div class="home-heading5">
+            <h2 class="home-text051">Take a look at the trending articles</h2>
+            <p class="home-text052">
+              Articles Trending across the Tech Community at present. Here are
+              the top 4 of them.
+            </p>
+          </div>
+          <div class="home-sections">
+            <div class="home-row3">
+              <div class="home-section">
+                <div class="home-header05">
+                  <h3 class="home-text053">Getting Started with AWS ETC</h3>
+                  <div class="home-description2">
+                    <p class="home-text054">
+                      Embark on your cloud journey with ease! Our post provides
+                      a beginner-friendly guide to Getting Started with AWS
+                      (Amazon Web Services). Explore the fundamentals, set up
+                      your account, and dive into the world of scalable, secure,
+                      and innovative cloud solutions. Start building your cloud
+                      skills today!
+                    </p>
+                    <p class="home-text055">
+                      ETC (Emerging Talent Community) is a place where a cloud
+                      enthusiast can interact with other cloud learners. It is a
+                      Community where one has..
+                    </p>
+                  </div>
+                </div>
+                <button class="home-button08 button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+              <div class="home-section1">
+                <div class="home-header06">
+                  <h3 class="home-text059">SSL Certification for website</h3>
+                  <div class="home-description3">
+                    <p class="home-text060">
+                      Unlock trust and security for your website! Our post
+                      offers a concise overview of SSL Certification. Discover
+                      why it's essential, how to obtain it, and the benefits of
+                      safeguarding your website and users' data. Enhance your
+                      website's credibility with SSL today.
+                    </p>
+                    <p class="home-text061">
+                      http and https are two different things a developer should
+                      know. https provides a layer of security. There are many
+                      services that provide free....
+                    </p>
+                  </div>
+                </div>
+                <button class="home-button09 button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="home-row4">
+              <div class="home-section2">
+                <div class="home-header07">
+                  <h3 class="home-text065">Top 10 low code platforms</h3>
+                  <div class="home-description4">
+                    <p class="home-text066">
+                      Revolutionize software development! Explore our post
+                      highlighting the Top 10 Low-Code Platforms. Discover how
+                      these tools streamline app creation, reduce coding, and
+                      empower your organization to innovate faster. Unleash your
+                      development potential with these game-changing platforms!
+                    </p>
+                    <p class="home-text067">
+                      There are variety of low code platforms that provide
+                      seamless easy direct drag and drop development features.
+                      Here are top 10 of them......
+                    </p>
+                  </div>
+                </div>
+                <button class="home-button10 button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+              <div class="home-section3">
+                <div class="home-header08">
+                  <h3 class="home-text071">
+                    Best Platform for Learning Cloud Computing.
+                  </h3>
+                  <div class="home-description5">
+                    <p class="home-text072">
+                      Unlock the cloud's limitless potential! Dive into our post
+                      showcasing the Best Platform for Learning Cloud Computing.
+                      Explore top providers, hands-on labs, and certifications
+                      that'll propel your cloud expertise to new heights. Start
+                      your cloud education journey and elevate your career!
+                    </p>
+                    <p class="home-text073">
+                      Variety of platforms including Udemy, Coursera, edureka
+                      provide both free and paid cloud learning guide. Below are
+                      provided links and other...
+                    </p>
+                  </div>
+                </div>
+                <button class="home-button11 button">
+                  <span>
+                    <span>Read more</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-banner">
+          <div class="home-container4">
+            <div class="home-header09">
+              <h2 class="home-title1">Doubt ? Ask an Expert</h2>
+              <p class="home-description6">
+                Mail us regarding your tech Query and we will try to reach you
+                within 24 hrs.
+              </p>
+            </div>
+            <a
+              href="mailto:developershubhelp@gmail.com?subject=Query - Web - Doubt"
+              class="home-link1 button"
+            >
+              <span>
+                <span>Mail us</span>
+                <br />
+              </span>
+            </a>
+          </div>
+        </section>
+        <section class="home-mission1">
+          <div class="home-content4">
+            <h2 class="home-text080">
+              At DevelopersHub, our mission is clear: Empower tech beginners and
+              enthusiasts with the knowledge they need to excel in today's
+              dynamic tech world.
+            </h2>
+            <div class="home-description7">
+              <p class="home-text081">
+                What makes DevelopersHub unique is our commitment to delivering
+                high-quality content through two powerful mediums: blogs and
+                podcasts. We understand that every individual has their
+                preferred way of learning and staying updated. Therefore, we
+                offer a diverse range of content that caters to different
+                learning styles.
+              </p>
+              <p class="home-text082">
+                DevelopersHub is more than just a platform; it’s a thriving
+                community of tech enthusiasts and professionals. We encourage
+                active participation through comments, discussions, and sharing
+                of ideas. Our goal is to foster a collaborative environment
+                where knowledge is exchanged freely, and connections are forged
+                that can shape the future of tech.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="home-galleries">
+          <div class="home-gallery-desktop">
+            <div class="home-column07">
+              <img
+                alt="image"
+                src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&amp;w=1300&amp;q=80"
+                class="home-image43"
+              />
+            </div>
+            <div class="home-column08">
+              <div class="home-row5">
+                <div class="home-yellow"></div>
+                <img
+                  alt="image"
+                  src="https://c0.wallpaperflare.com/preview/758/454/348/black-and-white-black-and-white-code-coding.jpg"
+                  class="home-image44"
+                />
+              </div>
+              <div class="home-row6">
+                <img
+                  alt="image"
+                  src="public/pexels-darina-belonogova-7964869%201-500w.png"
+                  class="home-image45"
+                />
+                <img
+                  alt="image"
+                  src="public/external/pastedimage-s3z8-1300w.png"
+                  class="home-image46"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-gallery-mobile">
+            <div class="home-column09">
+              <img
+                alt="image"
+                src="https://c0.wallpaperflare.com/preview/758/454/348/black-and-white-black-and-white-code-coding.jpg"
+                class="home-image47"
+              />
+              <img
+                alt="image"
+                src="public/pexels-darina-belonogova-7964869%201-500w.png"
+                class="home-image48"
+              />
+            </div>
+            <div class="home-column10">
+              <div class="home-yellow1"></div>
+              <img
+                alt="image"
+                src="public/pexels-darina-belonogova-8373875%203-400h.png"
+                class="home-image49"
+              />
+              <div class="home-row7">
+                <img
+                  alt="image"
+                  src="public/group%202106.svg"
+                  class="home-image50"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-mission2">
+          <div class="home-content5">
+            <cite class="home-quote8">
+              “UNIX is simple Operating System it just takes a genius to
+              understand it.”
+            </cite>
+            <div class="home-author4">
+              <img
+                alt="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/2/23/Dennis_Ritchie_2011.jpg"
+                class="home-avatar"
+              />
+              <div class="home-details1">
+                <span class="home-name4">Dennis Ritchie</span>
+                <span class="home-origin4">
+                  founder and contributor C and UNIX
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-newsletter">
+          <div class="home-header10">
+            <h2 class="home-text083">Subscribe to our newsletter</h2>
+            <p class="home-text084">
+              Sign up for our newsletter to get the latest post Updates!
+            </p>
+          </div>
+          <div class="home-content6">
+            <div class="home-email">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="home-textinput input"
+              />
+              <a
+                href="mailto:developershubhelp@gmail.com?subject=Subscribe to newsletter."
+                class="home-link2"
+              >
+                <div class="home-submit">
+                  <img
+                    alt="image"
+                    src="public/frame.svg"
+                    class="home-image51"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="home-notice">
+              <span class="home-notice1">
+                By Subscribing to our newsletter you will be notified for post
+                updates and newsletters.
+              </span>
+            </div>
+          </div>
+        </section>
+        <footer class="home-footer">
+          <div class="home-information">
+            <div class="home-content7">
+              <div class="home-header11">
+                <div class="home-branding2">
+                  <span class="home-text085">DevelopersHub</span>
+                  <svg viewBox="0 0 1024 1024" class="home-icon20">
+                    <path d="M128 128h768v768h-768z"></path>
+                  </svg>
+                  <span class="home-text086">A place for tech beginners</span>
+                </div>
+                <p class="home-text087">
+                  Follow us on LinkedIn for the latest updates, exclusive
+                  content, and engaging discussions. Feel free to contact us at
+                  [Contact Information] with any inquiries, suggestions, or
+                  collaboration opportunities.
+                </p>
+              </div>
+              <div class="home-contact-list">
+                <div class="home-contact">
+                  <img
+                    alt="image"
+                    src="public/group%201639.svg"
+                    class="home-image52"
+                  />
+                  <span class="home-text088">developershubhelp@gmail.com</span>
+                </div>
+                <div class="home-contact1">
+                  <img
+                    alt="image"
+                    src="public/group%201640.svg"
+                    class="home-image53"
+                  />
+                  <span class="home-text089">+91 XXXXXXXXXXX</span>
+                </div>
+              </div>
+            </div>
+            <span class="home-copyright">
+              ©2023 @DevelopersHub. All Rights Reserved.
+            </span>
+          </div>
+          <div class="home-links2">
+            <div class="home-column11">
+              <a href="not-found.html" class="home-text090 link">About</a>
+              <a href="not-found.html" class="home-text091 link">Training</a>
+              <a href="not-found.html" class="home-text092 link">Events</a>
+              <a href="not-found.html" class="home-text093 link">Membership</a>
+              <a href="not-found.html" class="home-text094 link">Blog</a>
+              <a href="not-found.html" class="home-text095 link">Contact</a>
+            </div>
+            <div class="home-column12">
+              <a href="not-found.html" class="home-text096 link">Linkedin</a>
+              <a href="not-found.html" class="home-text097 link">Instagram</a>
+              <a href="not-found.html" class="home-text098 link">Twitter</a>
+              <a href="not-found.html" class="home-text099 link">Facebook</a>
+            </div>
+          </div>
+        </footer>
+        <div>
+          <div class="home-container6">
+            <style>
+              .partner-container:hover .partner-image{
+                  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(75deg) brightness(101%) contrast(102%);
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
